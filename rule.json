@@ -1,0 +1,9 @@
+{
+    "host": "localhost:9200",
+    "domain": "http://www.fcrapid.ro",
+    "routes":[{
+        "pattern":".*",
+        "timeout": "20s",
+        "method": "GET"
+    }]
+}
